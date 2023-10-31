@@ -5,17 +5,19 @@ Algoritmo "semnome"
 //quantos minutos já se passaram desde às 00:00h deste dia
 Var
 // Seção de Declarações das variáveis
-hora: inteiro
+hr: inteiro
 min: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 escreval("Valor referente as horas atuais: ")
+leia (hr)
 escreval("Valor referente aos minutos atuais: ")
+leia (min)
 
 min <- hr * 60
 
-escreval("Já se passaram", min + hr "desde 00:00")
+escreval("Já se passaram", min + hr, "desde 00:00")
 
 
 Fimalgoritmo
